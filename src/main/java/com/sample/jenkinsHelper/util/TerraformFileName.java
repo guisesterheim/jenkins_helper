@@ -1,6 +1,6 @@
-package com.logistics.jenkinsHelper.util;
+package com.sample.jenkinsHelper.util;
 
-import com.logistics.jenkinsHelper.exceptions.InvalidInputException;
+import com.sample.jenkinsHelper.exceptions.InvalidInputException;
 
 public class TerraformFileName {
 

@@ -1,9 +1,9 @@
-package com.logistics.jenkinsHelper;
+package com.sample.jenkinsHelper;
 
-import com.logistics.jenkinsHelper.services.AzureService;
-import com.logistics.jenkinsHelper.util.InputParser;
-import com.logistics.jenkinsHelper.util.LoggerUtil;
-import com.logistics.jenkinsHelper.util.Params;
+import com.sample.jenkinsHelper.services.AzureService;
+import com.sample.jenkinsHelper.util.InputParser;
+import com.sample.jenkinsHelper.util.LoggerUtil;
+import com.sample.jenkinsHelper.util.Params;
 
 import java.util.HashMap;
 

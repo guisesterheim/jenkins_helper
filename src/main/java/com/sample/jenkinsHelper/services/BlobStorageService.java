@@ -1,14 +1,14 @@
-package com.logistics.jenkinsHelper.services;
+package com.sample.jenkinsHelper.services;
 
 import com.azure.core.http.rest.PagedIterable;
 import com.azure.storage.blob.BlobContainerClient;
 import com.azure.storage.blob.BlobServiceClient;
 import com.azure.storage.blob.BlobServiceClientBuilder;
 import com.azure.storage.blob.models.BlobItem;
-import com.logistics.jenkinsHelper.exceptions.InvalidInputException;
-import com.logistics.jenkinsHelper.util.InputParser;
-import com.logistics.jenkinsHelper.util.Params;
-import com.logistics.jenkinsHelper.util.TerraformFileName;
+import com.sample.jenkinsHelper.exceptions.InvalidInputException;
+import com.sample.jenkinsHelper.util.InputParser;
+import com.sample.jenkinsHelper.util.Params;
+import com.sample.jenkinsHelper.util.TerraformFileName;
 
 import java.util.ArrayList;
 import java.util.Comparator;
@@ -39,7 +39,7 @@ public class BlobStorageService {
         return blobContainerClient;
     }
 
-    public List<String> listFilesForContainer(String containerName) throws InvalidInputException{
+    public List<String> listFilesForContainer(String containerName) throws InvalidInputException {
         InputParser.checkEmptyInput(containerName, Params.CONTAINER_NAME);
 
         PagedIterable<BlobItem> blobs = getOrCreateContainer(containerName).listBlobs();

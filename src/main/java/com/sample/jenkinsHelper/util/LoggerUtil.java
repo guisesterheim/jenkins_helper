@@ -1,4 +1,4 @@
-package com.logistics.jenkinsHelper.util;
+package com.sample.jenkinsHelper.util;
 
 import org.apache.log4j.Logger;
 import org.apache.log4j.varia.NullAppender;

@@ -1,10 +1,10 @@
-package com.logistics.jenkinsHelper.services;
+package com.sample.jenkinsHelper.services;
 
-import com.logistics.jenkinsHelper.exceptions.InvalidEnvCountException;
-import com.logistics.jenkinsHelper.exceptions.InvalidInputException;
-import com.logistics.jenkinsHelper.util.LoggerUtil;
-import com.logistics.jenkinsHelper.util.Operations;
-import com.logistics.jenkinsHelper.util.Params;
+import com.sample.jenkinsHelper.exceptions.InvalidEnvCountException;
+import com.sample.jenkinsHelper.exceptions.InvalidInputException;
+import com.sample.jenkinsHelper.util.LoggerUtil;
+import com.sample.jenkinsHelper.util.Operations;
+import com.sample.jenkinsHelper.util.Params;
 
 import java.util.HashMap;
 import java.util.List;

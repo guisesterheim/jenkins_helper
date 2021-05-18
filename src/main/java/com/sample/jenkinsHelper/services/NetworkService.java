@@ -1,8 +1,8 @@
-package com.logistics.jenkinsHelper.services;
+package com.sample.jenkinsHelper.services;
 
-import com.logistics.jenkinsHelper.exceptions.InvalidInputException;
-import com.logistics.jenkinsHelper.util.InputParser;
-import com.logistics.jenkinsHelper.util.Params;
+import com.sample.jenkinsHelper.exceptions.InvalidInputException;
+import com.sample.jenkinsHelper.util.InputParser;
+import com.sample.jenkinsHelper.util.Params;
 import com.microsoft.azure.AzureEnvironment;
 import com.microsoft.azure.PagedList;
 import com.microsoft.azure.credentials.ApplicationTokenCredentials;

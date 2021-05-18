@@ -1,4 +1,4 @@
-package com.logistics.jenkinsHelper.util;
+package com.sample.jenkinsHelper.util;
 
 public interface Operations {
 

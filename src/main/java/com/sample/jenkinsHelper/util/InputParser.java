@@ -1,7 +1,6 @@
-package com.logistics.jenkinsHelper.util;
+package com.sample.jenkinsHelper.util;
 
-import com.logistics.jenkinsHelper.exceptions.InvalidInputException;
-import com.logistics.jenkinsHelper.services.AzureService;
+import com.sample.jenkinsHelper.exceptions.InvalidInputException;
 
 import java.util.Arrays;
 import java.util.HashMap;

@@ -1,4 +1,4 @@
-package com.logistics.jenkinsHelper.exceptions;
+package com.sample.jenkinsHelper.exceptions;
 
 public class InvalidEnvCountException extends Exception{
 

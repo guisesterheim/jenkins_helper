@@ -14,7 +14,7 @@ apply plugin: 'java'
 apply plugin: 'maven'
 apply plugin: 'org.springframework.boot'
 
-group = 'com.logistics.jenkinsHelper'
+group = 'com.sample.jenkinsHelper'
 version = '1.0-RELEASE'
 sourceCompatibility = 1.8
 targetCompatibility = 1.8
