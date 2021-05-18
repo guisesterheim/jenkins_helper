@@ -1,0 +1,49 @@
+buildscript {
+    ext {
+        springBootVersion = '2.3.2.RELEASE'
+    }
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}")
+    }
+}
+
+apply plugin: 'java'
+apply plugin: 'maven'
+apply plugin: 'org.springframework.boot'
+
+group = 'com.logistics.jenkinsHelper'
+version = '1.0-RELEASE'
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    // Azure CLI for Storage
+    compile group: 'com.azure', name: 'azure-storage-blob', version: '12.6.0'
+
+    // Azure CLI for Network
+    compile group: 'com.microsoft.azure', name: 'azure-mgmt-network', version: '1.37.1'
+
+    // Azure CLI for DNS
+    compile group: 'com.microsoft.azure', name: 'azure-mgmt-dns', version: '1.37.1'
+
+    // Azure CLI for Authentication
+    compile group: 'com.microsoft.azure', name: 'azure', version: '1.3.0'
+
+    compile group: 'org.slf4j', name: 'slf4j-log4j12', version: '1.7.5'
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    testImplementation('org.junit.jupiter:junit-jupiter:5.6.2')
+}
+
+test {
+    useJUnitPlatform()
+    testLogging {
+        events "passed", "skipped", "failed"
+    }
+}
