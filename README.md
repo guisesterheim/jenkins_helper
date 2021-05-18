@@ -1,5 +1,7 @@
 # Jenkins Helper
 
+This is part of the big project available at: http://sesterheim.com.br/hands-on-implementing-blue-green-deployment-on-azure-with-aks/
+
 Available commands:
 
 * Pull Next File Name for Terraform to destroy
